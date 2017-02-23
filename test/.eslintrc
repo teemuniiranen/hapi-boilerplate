@@ -1,0 +1,21 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "semi": 2,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "max-len": ["error", 160],
+    "no-console": 0,
+    "no-underscore-dangle": 0
+  },
+  "extends": "airbnb-base"
+}

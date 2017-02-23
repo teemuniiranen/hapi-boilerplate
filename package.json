@@ -1,0 +1,36 @@
+{
+  "name": "hapi-boilerplate",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Teemu Niiranen",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "boom": "^4.1.0",
+    "hapi": "^16.0.2",
+    "hapi-swagger": "^7.5.0",
+    "inert": "^4.0.3",
+    "joi": "^10.0.6",
+    "lodash": "^4.16.6",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-subset": "^1.4.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "mocha": "^3.1.2",
+    "nodemon": "^1.11.0",
+    "request": "^2.78.0",
+    "supertest": "^2.0.0",
+    "supertest-as-promised": "^4.0.1"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "eslint . && echo eslint OK && mocha",
+    "start": "node server.js"
+  }
+}
